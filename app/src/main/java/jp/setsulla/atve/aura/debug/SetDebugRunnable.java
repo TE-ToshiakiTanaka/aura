@@ -1,9 +1,9 @@
-package jp.setsulla.stve.aura.debug;
+package jp.setsulla.atve.aura.debug;
 
 import android.content.Intent;
 import android.os.Message;
 
-import jp.setsulla.stve.aura.MessageManager;
+import jp.setsulla.atve.aura.MessageManager;
 
 /**
  * Created by setsulla on 2016/02/28.

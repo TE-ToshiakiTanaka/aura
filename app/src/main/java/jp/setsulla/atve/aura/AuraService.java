@@ -1,4 +1,4 @@
-package jp.setsulla.stve.aura;
+package jp.setsulla.atve.aura;
 
 import android.annotation.SuppressLint;
 import android.app.Service;
@@ -9,9 +9,9 @@ import android.os.Message;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import jp.setsulla.stve.aura.debug.Debug;
-import jp.setsulla.stve.aura.generic.ExecuteTasksFinishedNotificationRunnable;
-import static jp.setsulla.stve.aura.generic.ExecuteTasksFinishedNotificationRunnable.MSG_EXECUTE_TASKS_DONE;
+import jp.setsulla.atve.aura.debug.Debug;
+import jp.setsulla.atve.aura.generic.ExecuteTasksFinishedNotificationRunnable;
+import static jp.setsulla.atve.aura.generic.ExecuteTasksFinishedNotificationRunnable.MSG_EXECUTE_TASKS_DONE;
 
 /**
  * Created by setsulla on 2016/02/28.
@@ -21,7 +21,7 @@ public class AuraService extends Service {
     private static final String TAG = AuraService.class.getSimpleName();
     public static final int PACKAGE_NAME_LEN = 24;
 
-    public static final String EXECUTE_TASKS_DONE = "jp.setsulla.stve.aura.EXECUTE_TASKS_DONE";
+    public static final String EXECUTE_TASKS_DONE = "jp.setsulla.atve.aura.EXECUTE_TASKS_DONE";
     public static final String KEY_WAIT_TIME = "wait_time";
     public static final String KEY_ACTION_RESULT = "action-result";
 

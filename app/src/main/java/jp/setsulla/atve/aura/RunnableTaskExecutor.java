@@ -1,4 +1,4 @@
-package jp.setsulla.stve.aura;
+package jp.setsulla.atve.aura;
 
 import android.os.Handler;
 import android.os.HandlerThread;

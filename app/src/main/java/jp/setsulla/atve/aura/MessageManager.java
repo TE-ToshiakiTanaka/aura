@@ -1,12 +1,12 @@
-package jp.setsulla.stve.aura;
+package jp.setsulla.atve.aura;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 
-import jp.setsulla.stve.aura.debug.Debug;
-import static jp.setsulla.stve.aura.AuraService.APP_TAG;
+import jp.setsulla.atve.aura.debug.Debug;
+import static jp.setsulla.atve.aura.AuraService.APP_TAG;
 
 /**
  * Created by setsulla on 2016/02/28.

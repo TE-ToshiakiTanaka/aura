@@ -1,4 +1,4 @@
-package jp.setsulla.stve.aura;
+package jp.setsulla.atve.aura;
 
 import android.content.Intent;
 import android.os.Message;
