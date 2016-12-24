@@ -1,4 +1,4 @@
-package jp.setsulla.atve.aura;
+package jp.setsulla.aura;
 
 import android.annotation.SuppressLint;
 import android.app.Service;
@@ -9,9 +9,9 @@ import android.os.Message;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import jp.setsulla.atve.aura.debug.Debug;
-import jp.setsulla.atve.aura.generic.ExecuteTasksFinishedNotificationRunnable;
-import static jp.setsulla.atve.aura.generic.ExecuteTasksFinishedNotificationRunnable.MSG_EXECUTE_TASKS_DONE;
+import jp.setsulla.aura.debug.Debug;
+import jp.setsulla.aura.generic.ExecuteTasksFinishedNotificationRunnable;
+import static jp.setsulla.aura.generic.ExecuteTasksFinishedNotificationRunnable.MSG_EXECUTE_TASKS_DONE;
 
 /**
  * Created by setsulla on 2016/02/28.

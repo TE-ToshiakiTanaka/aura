@@ -1,7 +1,7 @@
-package jp.setsulla.atve.aura;
+package jp.setsulla.aura;
 
 import android.util.Log;
-import static jp.setsulla.atve.aura.AuraService.APP_TAG;
+import static jp.setsulla.aura.AuraService.APP_TAG;
 
 /**
  * Created by setsulla on 2016/02/28.

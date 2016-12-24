@@ -1,16 +1,16 @@
-package jp.setsulla.atve.aura.debug;
+package jp.setsulla.aura.debug;
 
 import android.content.Intent;
 import android.os.Message;
 
-import jp.setsulla.atve.aura.MessageManager;
+import jp.setsulla.aura.MessageManager;
 
 /**
  * Created by setsulla on 2016/02/28.
  */
 public class SetDebugRunnable implements Runnable {
 
-    public static final String DEBUG_ON = "jp.setsulla.stve.aura.DEBUG_ON";
+    public static final String DEBUG_ON = "jp.setsulla.aura.DEBUG_ON";
     private final Intent mOrigIntent;
     private final int mActionId;
 

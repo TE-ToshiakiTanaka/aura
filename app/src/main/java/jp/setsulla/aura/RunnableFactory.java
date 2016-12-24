@@ -1,4 +1,4 @@
-package jp.setsulla.atve.aura;
+package jp.setsulla.aura;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,7 +8,7 @@ import android.os.Message;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import jp.setsulla.atve.aura.debug.SetDebugRunnable;
+import jp.setsulla.aura.debug.SetDebugRunnable;
 /**
  * Created by setsulla on 2016/02/28.
  */

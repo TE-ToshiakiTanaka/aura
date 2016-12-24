@@ -1,7 +1,7 @@
-package jp.setsulla.atve.aura;
+package jp.setsulla.aura;
 
-import static jp.setsulla.atve.aura.debug.SetDebugRunnable.DEBUG_ON;
-import static jp.setsulla.atve.aura.generic.ExecuteTasksFinishedNotificationRunnable.MSG_EXECUTE_TASKS_DONE;
+import static jp.setsulla.aura.debug.SetDebugRunnable.DEBUG_ON;
+import static jp.setsulla.aura.generic.ExecuteTasksFinishedNotificationRunnable.MSG_EXECUTE_TASKS_DONE;
 
 /**
  * Created by setsulla on 2016/02/28.

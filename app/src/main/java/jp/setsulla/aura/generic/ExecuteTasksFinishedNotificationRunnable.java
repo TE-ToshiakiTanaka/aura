@@ -1,7 +1,7 @@
-package jp.setsulla.atve.aura.generic;
+package jp.setsulla.aura.generic;
 
-import jp.setsulla.atve.aura.Action;
-import jp.setsulla.atve.aura.MessageManager;
+import jp.setsulla.aura.Action;
+import jp.setsulla.aura.MessageManager;
 
 /**
  * Created by setsulla on 2016/02/28.

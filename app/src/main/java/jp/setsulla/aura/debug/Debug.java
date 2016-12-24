@@ -1,4 +1,4 @@
-package jp.setsulla.atve.aura.debug;
+package jp.setsulla.aura.debug;
 
 /**
  * Created by setsulla on 2016/02/28.
