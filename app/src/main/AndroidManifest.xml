@@ -6,7 +6,7 @@
         android:theme="@style/AppTheme">
         <service android:name=".AuraService">
             <intent-filter>
-                <action android:name="jp.setsulla.atve.aura.DEBUG_ON" />
+                <action android:name="jp.setsulla.stve.aura.DEBUG_ON" />
 
             </intent-filter>
         </service>
