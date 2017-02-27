@@ -9,6 +9,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import jp.setsulla.aura.debug.SetDebugRunnable;
+import jp.setsulla.aura.picture.GetScreenShotRunnable;
+
 /**
  * Created by setsulla on 2016/02/28.
  */
@@ -44,6 +46,9 @@ public class RunnableFactory implements IRunnableFactory {
                 case SET_DEBUG_ON_ACTION:
                     SetDebugRunnable setDebug = new SetDebugRunnable(intent, actionId);
                     return new LogRunnable(setDebug, command);
+                case GET_SCREENSHOT_ACTION:
+                    GetScreenShotRunnable getSS = new GetScreenShotRunnable(mContext, intent, actionId);
+                    return new LogRunnable(getSS, command);
                 default:
             }
         }

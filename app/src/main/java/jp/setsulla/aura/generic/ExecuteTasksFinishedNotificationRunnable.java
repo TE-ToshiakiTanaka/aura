@@ -8,7 +8,7 @@ import jp.setsulla.aura.MessageManager;
  */
 public class ExecuteTasksFinishedNotificationRunnable implements Runnable {
     public static final String MSG_EXECUTE_TASKS_DONE =
-            "jp.setsulla.atve.aura.MSG_EXECUTE_TASKS_DONE";
+            "jp.setsulla.aura.MSG_EXECUTE_TASKS_DONE";
     private int startId;
     private int actionId;
 

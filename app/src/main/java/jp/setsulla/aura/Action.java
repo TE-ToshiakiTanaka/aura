@@ -1,6 +1,7 @@
 package jp.setsulla.aura;
 
 import static jp.setsulla.aura.debug.SetDebugRunnable.DEBUG_ON;
+import static jp.setsulla.aura.picture.GetScreenShotRunnable.SCREENSHOT;
 import static jp.setsulla.aura.generic.ExecuteTasksFinishedNotificationRunnable.MSG_EXECUTE_TASKS_DONE;
 
 /**
@@ -9,6 +10,7 @@ import static jp.setsulla.aura.generic.ExecuteTasksFinishedNotificationRunnable.
 public enum Action {
     DO_TASKS_DONE(MSG_EXECUTE_TASKS_DONE),
 
+    GET_SCREENSHOT_ACTION(SCREENSHOT),
     SET_DEBUG_ON_ACTION(DEBUG_ON),
 
     UNKNOWN("unknown");
@@ -40,7 +42,7 @@ public enum Action {
             }
         }
         throw new RuntimeException(
-                "Could not find action value [ " + actionValue + " : in list");
+                "Could not find action value [ " + actionValue + " ] : in list");
     }
 
     public static Action getActionFromId(int id) {

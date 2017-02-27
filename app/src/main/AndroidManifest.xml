@@ -7,6 +7,7 @@
         <service android:name=".AuraService">
             <intent-filter>
                 <action android:name="jp.setsulla.aura.DEBUG_ON" />
+                <action android:name="jp.setsulla.aura.SCREENSHOT" />
 
             </intent-filter>
         </service>

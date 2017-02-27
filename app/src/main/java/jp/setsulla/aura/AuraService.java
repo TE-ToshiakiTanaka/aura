@@ -19,9 +19,9 @@ import static jp.setsulla.aura.generic.ExecuteTasksFinishedNotificationRunnable.
 public class AuraService extends Service {
     public static final String APP_TAG = "Aura";
     private static final String TAG = AuraService.class.getSimpleName();
-    public static final int PACKAGE_NAME_LEN = 24;
+    public static final int PACKAGE_NAME_LEN = 17;
 
-    public static final String EXECUTE_TASKS_DONE = "jp.setsulla.atve.aura.EXECUTE_TASKS_DONE";
+    public static final String EXECUTE_TASKS_DONE = "jp.setsulla.aura.EXECUTE_TASKS_DONE";
     public static final String KEY_WAIT_TIME = "wait_time";
     public static final String KEY_ACTION_RESULT = "action-result";
 
